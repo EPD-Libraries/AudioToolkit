@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioToolkit", "AudioToolkit\AudioToolkit.csproj", "{8141555B-2846-4EDC-B944-6ABE384AB66E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioToolkit.Runner", "AudioToolkit.Runner\AudioToolkit.Runner.csproj", "{EDD61E1A-D2D7-4703-A8EA-8F1D27408B3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A82F803D-32F5-4044-993F-073C2D9FFBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioToolkit.Tests", "Tests\AudioToolkit.Tests\AudioToolkit.Tests.csproj", "{D784D7FD-2250-4CDE-A58A-C118735EC961}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8141555B-2846-4EDC-B944-6ABE384AB66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8141555B-2846-4EDC-B944-6ABE384AB66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8141555B-2846-4EDC-B944-6ABE384AB66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8141555B-2846-4EDC-B944-6ABE384AB66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD61E1A-D2D7-4703-A8EA-8F1D27408B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD61E1A-D2D7-4703-A8EA-8F1D27408B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD61E1A-D2D7-4703-A8EA-8F1D27408B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD61E1A-D2D7-4703-A8EA-8F1D27408B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D784D7FD-2250-4CDE-A58A-C118735EC961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D784D7FD-2250-4CDE-A58A-C118735EC961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D784D7FD-2250-4CDE-A58A-C118735EC961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D784D7FD-2250-4CDE-A58A-C118735EC961}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D784D7FD-2250-4CDE-A58A-C118735EC961} = {A82F803D-32F5-4044-993F-073C2D9FFBC4}
+	EndGlobalSection
+EndGlobal
